@@ -49,7 +49,7 @@ int main (){
     printf("Enter your password :");
     gets(L.Password);
 
-    if(strcmp(R.Email,L.Email)==0 && strcmp(L.Password,L.Password)==0)
+    if(strcmp(R.Email,L.Email)==0 && strcmp(R.Password,L.Password)==0)
 
             {   
                 printf("\nSuccessful Login\n");
